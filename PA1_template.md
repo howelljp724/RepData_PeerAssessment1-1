@@ -1,7 +1,7 @@
 Assignment 1, Reproducible Research
 ========================================================
 
-# I. Loading and Processing the data
+# I. Loading and Processing the Data
 
 
 ```r
@@ -20,22 +20,6 @@ activity<-read.csv("activity.csv")
 ```r
 library(base)
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(datasets)
 library(lattice)
 library(stats)
